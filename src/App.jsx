@@ -6,6 +6,7 @@ import About from './components/about/About'
 import Skills from './components/skills/Skills'
 import Services from './components/services/Services'
 import Footer from './components/footer/Footer'
+import ScrollUp from './components/scrollup/ScrollUp'
 
 export const App = () => {
   return (
@@ -17,8 +18,10 @@ export const App = () => {
       <About/>
       <Skills/>
       <Services/>
-      <Footer/>
+      
     </main>
+    <Footer/>
+    <ScrollUp/>
     </>
   )
 }

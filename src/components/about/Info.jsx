@@ -11,7 +11,7 @@ const aboutInfo =[
     {
         id: 2,
         title: "Completed",
-        subtitle: "10 + Projects",
+        subtitle: "4 + Projects",
         icon: "bx bx-briefcase-alt about__icon bx-tada-hover"
     },
     {

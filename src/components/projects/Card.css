@@ -1,0 +1,18 @@
+.card__container{
+    grid-template-columns: repeat(3,270px);
+    justify-content: center;
+    column-gap: 1.8rem;
+}
+
+.card__content{
+    position: relative;
+    border: 1px solid rgba(0,0,0, 0.1);
+    background-color: var(--container-color);
+    padding: 6rem 0 2rem 2.5rem;
+}
+
+.card__title{
+    font-size: var(--h3-font-size);
+    margin-bottom: var(--mb-1);
+    font-weight: var(--font-medium);
+}

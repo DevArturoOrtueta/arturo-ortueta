@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Projects.css";
+import {Card} from "./Card";
 
 const projects = [
     {
@@ -24,15 +25,10 @@ const projects = [
 
 export const Projects = () => {
     return (
-        <div className="projects-container"> {/* Agregar una clase CSS para el contenedor de proyectos */}
+        <div className="projects__container"> {/* Agregar una clase CSS para el contenedor de proyectos */}
           <h2 className='projects__title'>Mis Proyectos</h2>
           {projects.map((project, index) => (
-            <div key={index} className="project"> {/* Agregar una clase CSS para cada proyecto */}
-              <h3>{project.title}</h3>
-              <img src={project.image} alt={project.title} />
-              <p>{project.description}</p>
-              <a href={project.link}>Ver en GitHub</a>
-            </div>
+            <Card key={index} data={project}/>
           ))}
         </div>
       );

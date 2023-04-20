@@ -1,7 +1,16 @@
 .card__container{
-    grid-template-columns: repeat(3,270px);
+    position: relative;
+    grid-template-columns: repeat(3,auto);
     justify-content: center;
+    min-width: 700px;
+    width: 700px;
     column-gap: 1.8rem;
+}
+
+.card__container:hover{
+    transition: 0.3s ease-out;
+    transform: scale(1.1);
+    z-index: 100;
 }
 
 .card__content{

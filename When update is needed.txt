@@ -1,3 +1,0 @@
-You need to change in the production folder this things:
-  - in css .home__img{background:url(./profile.f970aafe.jpg);
-  - in js const Of="./assets/profile.f970aafe.jpg",If="./assets/CV - Arturo Ortueta.eb8ca304.pdf"

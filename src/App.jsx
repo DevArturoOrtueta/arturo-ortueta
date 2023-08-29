@@ -19,6 +19,7 @@ export const App = () => {
       <Skills/>
       <Services/>
       
+      
     </main>
     <Footer/>
     <ScrollUp/>
